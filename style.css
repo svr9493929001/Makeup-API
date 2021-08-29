@@ -1,0 +1,47 @@
+.user-pic{
+    width: 100%;
+    padding: 0px;
+}
+.container {
+   display: flex;
+    flex-direction: column;
+    width: 15rem;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 1s;
+    color: burlywood;
+    background: seashell;
+    position: relative;
+    top: 50px;
+}
+img{
+    padding: 10px;
+}
+.container:hover{
+    transform: scale(1.12);
+    
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+.user-join-date{
+    font-size: 14px;
+    color: #586d63;
+}
+.inputs{
+    position: absolute;
+    top: 0px;
+}
+button {
+  border-radius: 20px;
+  margin: 20px;
+  background: rgb(221, 204, 204);
+}
+input{
+    border-radius: 20px;
+    background: rgb(221, 204, 204);
+}
